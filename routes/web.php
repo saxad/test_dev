@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('partials.home');
+})->name('home');
+
+
+Route::view('/addstar', 'partials.add')->name('add');
