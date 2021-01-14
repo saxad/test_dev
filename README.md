@@ -28,6 +28,10 @@ Lancer les migrations pour la base de données  (**FAUT CREER LA BASE DE DONNEES
     php artisan migrate
 
 
+Rajouter un lien symbolique entre storage et public
+
+    php artisan storage:link
+
 ## erreur / permission
 
 Permissions pour eviter l'erreur  (**The stream or file "path_to_dir/test_dev/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission non accordée**)
