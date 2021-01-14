@@ -40,18 +40,24 @@ h1,h4{
     z-index: 1;
     background-color: #18151c;
     margin-top: 1em;
+    margin-bottom: 0em;
 }
 
+.list-title{
+    font-size: 1.5em;
+}
 .list-title::before{
     content: "✨";
     }
+.noentry{
+    font-size: 1.2em;
+    color: #ccc;
+}
 
     
 .main{
     padding: 2em;
 
-    
-    /* scroll-behavior: smooth; */
 }
 
 .main-content{
@@ -112,3 +118,24 @@ ul.list-group:after {
 
 }
 
+.change-delete{
+    display: flex;
+}
+form .input-erros{
+    color: red !important;
+    display: block;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
